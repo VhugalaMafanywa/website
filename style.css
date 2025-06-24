@@ -294,17 +294,15 @@ nav ul li a:hover::after {
   background-color: #2d1133;
   color: floralwhite;
   padding: 60px 10%;
-  
+}
+.skills i {
+  transition: transform 0.3s ease;
+}
 
-.skills ul {
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 70px;
+.skills i:hover {
+  transform: scale(1.2);
 }
-.skills ul li {
-  margin-bottom: 20px;
-  font-size: 18px;
-}
+
 
 .projects h2 {
   margin-bottom: 20px;
