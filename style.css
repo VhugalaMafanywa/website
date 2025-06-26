@@ -23,11 +23,23 @@ nav {
   
 }
 
-.logo {
-  width: 50px;
-  height: auto;
-  display: block;
+.logo-text {
+  font-size: 24px;
+  font-weight: 700;
+  color: #cab1db;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 8px rgba(240, 4, 200, 0.4);
 }
+
+.logo-text:hover {
+  color: #dba9f1;
+  text-shadow: 0 0 10px rgba(66, 2, 82, 0.7); 
+}
+
 
 nav ul {
   display: flex;
