@@ -224,9 +224,7 @@ nav ul li a:hover::after {
 .about-text {
   flex: 1;
   min-width: 280px;
-  border-left: 5px solid #E0B3FF;
-  border-radius: 8px;
-  box-shadow: 0 0 12px rgba(240, 4, 200, 0.2);
+ 
 }
 
 .about-text h2 {
