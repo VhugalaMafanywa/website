@@ -516,5 +516,25 @@ html {
   color: floralwhite !important;
   z-index: 10 !important;
 }
+.project-links a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #ff3cac; /* adjust for your theme */
+  padding: 8px 12px;
+  border-radius: 8px;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+
+.project-links a:hover {
+  background-color: #d8317a;
+}
+
+.project-links i {
+  margin-right: 6px;
+}
+
 
 
