@@ -6,14 +6,14 @@
 }
 
 body {
- background: #ffffff;
-      color: #1a1a1a;
+  background: #F8FAFC;
+  color: #0F172A;
 }
 
 #container {
   padding: 20px 10%;
-  background-color: #0d6efd;
-      color: white;
+  background-color: #1E293B;
+  color: white;
 }
 
 nav {
@@ -21,26 +21,24 @@ nav {
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  
 }
 
 .logo-text {
   font-size: 24px;
   font-weight: 700;
- color: #0d6efd
+  color: #2563EB;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
   text-decoration: none;
   transition: all 0.3s ease;
-  text-shadow: 0 0 8px rgba(240, 4, 200, 0.4);
+  text-shadow: 0 0 8px rgba(37, 99, 235, 0.4);
 }
 
 .logo-text:hover {
-  color: #dba9f1;
-  text-shadow: 0 0 10px rgba(66, 2, 82, 0.7); 
+  color: #93C5FD;
+  text-shadow: 0 0 10px rgba(30, 64, 175, 0.7); 
 }
-
 
 nav ul {
   display: flex;
@@ -52,7 +50,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: #E0B3FF;
+  color: #BFDBFE;
   text-decoration: none;
   font-weight: bold;
   position: relative;
@@ -63,7 +61,7 @@ nav ul li a::after {
   content: '';
   width: 0%;
   height: 3px;
-  background: #F72585;
+  background: #6366F1;
   position: absolute;
   left: 0;
   bottom: -6px;
@@ -86,9 +84,9 @@ nav ul li a:hover::after {
   width: 550px;
   height: 550px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #0536bb, #ae00ff);
+  background: linear-gradient(135deg, #1D4ED8, #6366F1);
   padding: 5px;
-  box-shadow: 0 0 20px rgba(145, 118, 189, 0.6), 0 0 30px rgba(153, 7, 117, 0.4);
+  box-shadow: 0 0 20px rgba(147, 197, 253, 0.4), 0 0 30px rgba(99, 102, 241, 0.3);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -135,7 +133,6 @@ nav ul li a:hover::after {
 }
 
 .text-content {
-  
   max-width: 50%;
   font-size: 28px;
   line-height: 1.6;
@@ -144,7 +141,7 @@ nav ul li a:hover::after {
 .text-content h1 {
   font-size: 64px;
   margin-bottom: 10px;
-  color: #0d6efd;
+  color: #2563EB;
 }
 
 .text-content p {
@@ -170,17 +167,17 @@ nav ul li a:hover::after {
 .icon {
   margin-right: 10px;
   font-size: 20px;
-  color: #E0B3FF;
+  color: #93C5FD;
 }
 
 .contact-details a {
-  color: #E0B3FF;
+  color: #93C5FD;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .contact-details a:hover {
-  color: #ae00ff;
+  color: #6366F1;
 }
 
 .social-links {
@@ -191,7 +188,7 @@ nav ul li a:hover::after {
 }
 
 .social-links a {
-  background: #5A189A;
+  background: #334155;
   color: white;
   padding: 8px 14px;
   border-radius: 6px;
@@ -203,8 +200,9 @@ nav ul li a:hover::after {
 }
 
 .social-links a:hover {
-  background: #7B2CBF;
+  background: #475569;
 }
+
 
 .about-section {
   background-color: #1A1A2E;
