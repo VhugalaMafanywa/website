@@ -12,7 +12,8 @@ body {
 
 #container {
   padding: 20px 10%;
-  background: #111;
+  background-color: #0d6efd;
+      color: white;
 }
 
 nav {
@@ -26,7 +27,7 @@ nav {
 .logo-text {
   font-size: 24px;
   font-weight: 700;
-  color: #cab1db;
+ color: #0d6efd
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -134,7 +135,7 @@ nav ul li a:hover::after {
 }
 
 .text-content {
-  color: white;
+  
   max-width: 50%;
   font-size: 28px;
   line-height: 1.6;
@@ -143,7 +144,7 @@ nav ul li a:hover::after {
 .text-content h1 {
   font-size: 64px;
   margin-bottom: 10px;
-  color:  #E0B3FF;
+  color: #0d6efd;
 }
 
 .text-content p {
