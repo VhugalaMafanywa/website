@@ -365,6 +365,9 @@ nav ul li a:hover::after {
   color: #BFDBFE;
   text-decoration: none;
   font-weight: bold;
+   display: flex;
+  gap: 12px;
+  margin-top: 10px; 
 }
 
 .project-card a:hover {
