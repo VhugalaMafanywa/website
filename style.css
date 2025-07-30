@@ -230,6 +230,7 @@ nav ul li a:hover::after {
 .education-section {
   background-color: #1E293B;
   color: #F1F5F9;
+  gap: 20px;
   padding: 60px 10%;
 }
 
