@@ -236,7 +236,8 @@ nav ul li a:hover::after {
   background-color: #334155;
   padding: 20px;
   border-radius: 10px;
-  width: 280px;
+  width: 100%;
+  max-width: none;
   text-align: center;
   opacity: 0;
   transform: translateY(30px);
